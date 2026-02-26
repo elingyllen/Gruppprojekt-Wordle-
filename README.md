@@ -1,3 +1,7 @@
 # Gruppprojekt-Wordle-
 
-test 1 
+ideer för att utöka programmet: 
+- poängsystem
+- startsdia & slutsida
+- valbar ordlängd
+- 
