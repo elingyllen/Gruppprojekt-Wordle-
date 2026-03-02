@@ -1,10 +1,13 @@
+# importera tkinter som GUI
 import tkinter as tk 
 import random
 
+# Skapa lista med ordval + randomisera vilket ord som blir valt
 Words = ["apple", "grape", "mango", "peach"]
 
 Target_word = random.choice(Words)
 
+# Skapa rutnät där man gissar orden
 Rows = 6
 Cols = 5 
 
@@ -16,6 +19,7 @@ def check_guess() :
     row = current_row[0]
     guess = ""
 
+# Göra gissningen + veta om bokstav är rätt eller fel
     for col in range(Cols) : 
         guess += grid[row][col].get().lower()
 
